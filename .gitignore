@@ -1,0 +1,61 @@
+# image files
+*.png
+*.json
+*.diff
+*.jpg
+
+# compilation and distribution
+__pycache__
+_ext
+*.pyc
+*.pyd
+*.so
+*.dll
+*.egg-info/
+build/
+dist/
+wheels/
+
+# keras/pytorch/python/numpy formats
+*.h5
+*.pth
+*.pkl
+*.npy
+*.ts
+model_ts*.txt
+
+# ipython/jupyter notebooks
+*.ipynb
+**/.ipynb_checkpoints/
+
+# editor settings
+.idea
+.vscode
+_darcs
+
+# root text files
+/*.txt
+
+# work_dirs
+work_dirs/
+
+# pretrained files
+pretrained/
+
+# dataset folder
+datasets/
+
+# compressed files
+*.tar.gz
+*.zip
+*.rar
+*.tar
+
+# pickle sequence files
+*.p
+
+# experimental codes
+try*
+
+# output dir
+output/

@@ -1,0 +1,12 @@
+_BASE_: base.yaml
+MODEL:
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  MASK_ON: True
+  META_ARCHITECTURE: "GeneralizedRCNN"
+  RPN:
+    PRE_NMS_TOPK_TEST: 256
+    POST_NMS_TOPK_TEST: 256
+  ROI_HEADS:
+    NAME: "Res5ROIHeads"
+  RESNETS:
+    DEPTH: 50
